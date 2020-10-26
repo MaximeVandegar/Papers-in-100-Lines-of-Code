@@ -1,4 +1,4 @@
-# Papers-in-100-Lines-of-Code
+# Papers in 100 Lines of Code
 
 Implementation of papers in 100 lines of code. 
 
