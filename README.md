@@ -6,10 +6,7 @@ Associated YouTube channel: https://youtube.com/channel/UCrZt3MzMMswjgWcUCriQ61w
 
 ## Papers implemented
 
-```
-@inproceedings{kingma2014autoencoding,
-  title={Auto-Encoding Variational Bayes},
-  author={Diederik P Kingma and Max Welling},
-  year={2014}
-}
-```
+##### [Auto-Encoding Variational Bayes]
+- Auto-Encoding Variational Bayes [[pdf]](https://arxiv.org/pdf/1312.6114.pdf)
+- *Diederik P Kingma, Max Welling*
+- `2013-12-20`
