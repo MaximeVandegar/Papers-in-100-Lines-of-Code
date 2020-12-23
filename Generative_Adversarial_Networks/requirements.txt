@@ -1,0 +1,5 @@
+Keras==2.4.3
+matplotlib==3.3.1
+numpy==1.19.4
+torch==1.7.1
+tqdm==4.48.2
