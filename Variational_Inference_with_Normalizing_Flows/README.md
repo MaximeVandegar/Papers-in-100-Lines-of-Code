@@ -11,6 +11,6 @@ $ python3 Flows.py
 
 ## Results
 
-#### Visualization of samples from the model. 
+#### Approximating four non-Gaussian 2D distributions. Learned densities against the exact ones.
 ![](Imgs/learned_densities.png)
 
