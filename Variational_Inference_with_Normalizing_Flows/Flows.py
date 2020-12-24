@@ -57,13 +57,13 @@ class NormalizingFlow(nn.Module):
         return z, log_jacobians
 
 def train(flow, optimizer, nb_epochs, log_density, batch_size, data_dim):
-    losses = []
+    training_loss = []
     for epoch in tqdm(range(nb_epochs)):
         # Generate new samples from the flow
         z0 = torch.randn(batch_size, data_dim).to(device)
         zk, log_jacobian = flow(z0)
 
-        # Evaluate the true and approximated densities
+        # Evaluate the exact and approximated densities
         flow_log_density = gaussian_log_pdf(z0) - log_jacobian
         exact_log_density = log_density(zk).to(device)
 
@@ -74,8 +74,8 @@ def train(flow, optimizer, nb_epochs, log_density, batch_size, data_dim):
         loss.backward()
         optimizer.step()
 
-        losses.append(loss.item())
-    return losses
+        training_loss.append(loss.item())
+    return training_loss
 
 def plot_flow_density(flow, ax, lims=np.array([[-4, 4], [-4, 4]]), cmap="coolwarm", title=None,
                       nb_point_per_dimension=1000):
