@@ -20,3 +20,8 @@ Associated YouTube channel: https://youtube.com/channel/UCrZt3MzMMswjgWcUCriQ61w
 - Variational Inference with Normalizing Flows [[pdf]](https://arxiv.org/pdf/1505.05770.pdf)
 - *Danilo Jimenez Rezende, Shakir Mohamed*
 - `2015-05-21`
+
+##### [Optimizing Millions of Hyperparameters by Implicit Differentiation]
+- Optimizing Millions of Hyperparameters by Implicit Differentiation [[pdf]](http://proceedings.mlr.press/v108/lorraine20a/lorraine20a.pdf)
+- *Jonathan Lorraine, Paul Vicol, David Duvenaud*
+- `2019-10-06`
