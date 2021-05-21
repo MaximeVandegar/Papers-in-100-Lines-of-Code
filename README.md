@@ -25,3 +25,8 @@ Associated YouTube channel: https://youtube.com/channel/UCrZt3MzMMswjgWcUCriQ61w
 - Optimizing Millions of Hyperparameters by Implicit Differentiation [[pdf]](http://proceedings.mlr.press/v108/lorraine20a/lorraine20a.pdf)
 - *Jonathan Lorraine, Paul Vicol, David Duvenaud*
 - `2019-10-06`
+
+##### [Likelihood-free MCMC with Amortized Approximate Ratio Estimators]
+- Likelihood-free MCMC with Amortized Approximate Ratio Estimators [[pdf]](http://proceedings.mlr.press/v108/lorraine20a/lorraine20a.pdf)
+- *Joeri Hermans, Volodimir Begy, Gilles Louppe*
+- `2020-06-26`
