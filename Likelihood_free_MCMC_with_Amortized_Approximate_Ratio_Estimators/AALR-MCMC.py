@@ -25,7 +25,6 @@ class UniformPrior:
 
     @staticmethod
     def log_prob(x_batch):
-        # Returns log p(y|x)
         uniform = Uniform(torch.zeros(x_batch.shape[0], 5) + torch.tensor([-3.]),
                           torch.zeros(x_batch.shape[0], 5) + torch.tensor([3.]))
         return uniform.log_prob(x_batch).sum(1)
