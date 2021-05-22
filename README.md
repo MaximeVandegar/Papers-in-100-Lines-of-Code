@@ -2,8 +2,6 @@
 
 Implementation of papers in 100 lines of code. 
 
-Associated YouTube channel: https://youtube.com/channel/UCrZt3MzMMswjgWcUCriQ61w
-
 ## Implemented papers
 
 ##### [Auto-Encoding Variational Bayes]
