@@ -19,6 +19,11 @@ Implementation of papers in 100 lines of code.
 - *Danilo Jimenez Rezende, Shakir Mohamed*
 - `2015-05-21`
 
+##### [Sequential Neural Likelihood]
+- Sequential Neural Likelihood: Fast Likelihood-free Inference with Autoregressive Flows [[pdf]](https://arxiv.org/pdf/1805.07226.pdf)
+- *George Papamakarios, David C. Sterratt, Iain Murray*
+- `2018-05-18`
+
 ##### [Optimizing Millions of Hyperparameters by Implicit Differentiation]
 - Optimizing Millions of Hyperparameters by Implicit Differentiation [[pdf]](http://proceedings.mlr.press/v108/lorraine20a/lorraine20a.pdf)
 - *Jonathan Lorraine, Paul Vicol, David Duvenaud*
