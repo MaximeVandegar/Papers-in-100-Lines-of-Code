@@ -158,10 +158,11 @@ def make_plot(samples, savepath, theta_star, fig_size=(8, 8)):
     plt.savefig(savepath); plt.close()
 
 
-simulator = SLCPSimulator()
-loss, ratio_estimator = algorithm1(simulator, UniformPrior())
-gt_parameters = simulator.get_ground_truth_parameters()
-observation = simulator.simulate(gt_parameters.unsqueeze(0))
-samples = likelihood_free_metropolis_hastings(UniformPrior(), MultivariateNormalTransitionDistribution(),
-                                              ratio_estimator, observation, T=2000).data.cpu().numpy()
-make_plot(samples, 'Imgs/posteriors_from_the_tractable_benchmark.png', gt_parameters)
+if __name__ == "__main__":
+    simulator = SLCPSimulator()
+    loss, ratio_estimator = algorithm1(simulator, UniformPrior())
+    gt_parameters = simulator.get_ground_truth_parameters()
+    observation = simulator.simulate(gt_parameters.unsqueeze(0))
+    samples = likelihood_free_metropolis_hastings(UniformPrior(), MultivariateNormalTransitionDistribution(),
+                                                  ratio_estimator, observation, T=2000).data.cpu().numpy()
+    make_plot(samples, 'Imgs/posteriors_from_the_tractable_benchmark.png', gt_parameters)
