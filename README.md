@@ -14,6 +14,11 @@ Implementation of papers in 100 lines of code.
 - *Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio*
 - `2014-06-10`
 
+##### [NICE: Non-linear Independent Components Estimation]
+- NICE: Non-linear Independent Components Estimation[[pdf]](https://arxiv.org/pdf/1410.8516.pdf)
+- *Laurent Dinh, David Krueger, Yoshua Bengio*
+- `2014-10-30`
+
 ##### [Variational Inference with Normalizing Flows]
 - Variational Inference with Normalizing Flows [[pdf]](https://arxiv.org/pdf/1505.05770.pdf)
 - *Danilo Jimenez Rezende, Shakir Mohamed*
