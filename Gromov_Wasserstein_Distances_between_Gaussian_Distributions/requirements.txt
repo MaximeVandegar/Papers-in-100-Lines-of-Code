@@ -1,0 +1,2 @@
+matplotlib==3.3.4
+torch==1.7.1

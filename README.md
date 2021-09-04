@@ -43,3 +43,8 @@ Implementation of papers in 100 lines of code.
 - NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis [[pdf]](https://arxiv.org/pdf/2003.08934.pdf)
 - *Ben Mildenhall, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, Ren Ng*
 - `2020-08-03`
+
+##### [Gromov-Wasserstein Distances between Gaussian Distributions]
+- Gromov-Wasserstein Distances between Gaussian Distributions [[pdf]](https://arxiv.org/pdf/2104.07970.pdf)
+- *Antoine Salmona, Julie Delon, Agnès Desolneux*
+- `2021-08-16`
