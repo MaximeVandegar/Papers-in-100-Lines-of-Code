@@ -38,3 +38,8 @@ Implementation of papers in 100 lines of code.
 - Likelihood-free MCMC with Amortized Approximate Ratio Estimators [[pdf]](http://proceedings.mlr.press/v108/lorraine20a/lorraine20a.pdf)
 - *Joeri Hermans, Volodimir Begy, Gilles Louppe*
 - `2020-06-26`
+
+##### [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis]
+- NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis [[pdf]](https://arxiv.org/pdf/2003.08934.pdf)
+- *Ben Mildenhall, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, Ren Ng*
+- `2020-08-03`
