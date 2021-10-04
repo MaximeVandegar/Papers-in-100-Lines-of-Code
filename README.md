@@ -34,6 +34,11 @@ Implementation of papers in 100 lines of code.
 - *Jonathan Lorraine, Paul Vicol, David Duvenaud*
 - `2019-10-06`
 
+##### [Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains]
+- Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains[[pdf]](https://arxiv.org/pdf/2006.10739.pdf)
+- *Matthew Tancik, Pratul P. Srinivasan, Ben Mildenhall, Sara Fridovich-Keil, Nithin Raghavan, Utkarsh Singhal, Ravi Ramamoorthi, Jonathan T. Barron, Ren Ng*
+- `2020-06-18`
+
 ##### [Likelihood-free MCMC with Amortized Approximate Ratio Estimators]
 - Likelihood-free MCMC with Amortized Approximate Ratio Estimators [[pdf]](http://proceedings.mlr.press/v108/lorraine20a/lorraine20a.pdf)
 - *Joeri Hermans, Volodimir Begy, Gilles Louppe*
