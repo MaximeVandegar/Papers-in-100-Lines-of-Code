@@ -11,6 +11,6 @@ $ python3 siren.py
 
 ## Results
 
-#### Fitting a ground truth image/
-![](Imgs/siren.png)
+#### Fitting a ground truth image.
+![](Imgs/Siren.png)
 
