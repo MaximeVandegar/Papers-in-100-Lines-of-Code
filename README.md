@@ -39,6 +39,11 @@ Implementation of papers in 100 lines of code.
 - *Jonathan Lorraine, Paul Vicol, David Duvenaud*
 - `2019-10-06`
 
+##### [Implicit Neural Representations with Periodic Activation Functions]
+- Implicit Neural Representations with Periodic Activation Functions [[arXiv]](https://arxiv.org/abs/2006.09661)
+- *Vincent Sitzmann, Julien N. P. Martel, Alexander W. Bergman, David B. Lindell, Gordon Wetzstein*
+- `2020-06-17`
+
 ##### [Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains]
 - Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains [[arXiv]](https://arxiv.org/abs/2006.10739)
 - *Matthew Tancik, Pratul P. Srinivasan, Ben Mildenhall, Sara Fridovich-Keil, Nithin Raghavan, Utkarsh Singhal, Ravi Ramamoorthi, Jonathan T. Barron, Ren Ng*
