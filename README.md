@@ -59,6 +59,11 @@ Implementation of papers in 100 lines of code.
 - *Ben Mildenhall, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, Ren Ng*
 - `2020-08-03`
 
+##### [Multiplicative Filter Networks]
+- Multiplicative Filter Networks [[OpenReview]](https://openreview.net/forum?id=OmtmcPkkhT)
+- *Rizal Fathony, Anit Kumar Sahu, Devin Willmott, J Zico Kolter*
+- `2020-09-28`
+
 ##### [Gromov-Wasserstein Distances between Gaussian Distributions]
 - Gromov-Wasserstein Distances between Gaussian Distributions [[arXiv]](https://arxiv.org/abs/2104.07970)
 - *Antoine Salmona, Julie Delon, Agnès Desolneux*
