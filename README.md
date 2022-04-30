@@ -29,6 +29,11 @@ Implementation of papers in 100 lines of code.
 - *Xudong Mao, Qing Li, Haoran Xie, Raymond Y.K. Lau, Zhen Wang, Stephen Paul Smolley*
 - `2016-11-13`
 
+##### [On First-Order Meta-Learning Algorithms]
+- On First-Order Meta-Learning Algorithms [[arXiv]](https://arxiv.org/abs/1803.02999)
+- *Alex Nichol, Joshua Achiam, John Schulman*
+- `2018-03-08`
+
 ##### [Sequential Neural Likelihood]
 - Sequential Neural Likelihood: Fast Likelihood-free Inference with Autoregressive Flows [[arXiv]](https://arxiv.org/abs/1805.07226)
 - *George Papamakarios, David C. Sterratt, Iain Murray*
