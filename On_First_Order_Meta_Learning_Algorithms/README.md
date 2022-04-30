@@ -11,6 +11,6 @@ $ python3 reptile.py
 
 ## Results
 
-#### Fitting a ground truth image.
+#### Demonstration of Reptile on a toy few-shot regression problem.
 ![](Imgs/Demonstration_of_reptile.png)
 
