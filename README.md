@@ -29,6 +29,11 @@ Implementation of papers in 100 lines of code.
 - *Xudong Mao, Qing Li, Haoran Xie, Raymond Y.K. Lau, Zhen Wang, Stephen Paul Smolley*
 - `2016-11-13`
 
+##### [Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks]
+- Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks [[arXiv]](https://arxiv.org/abs/1703.03400)
+- *Chelsea Finn, Pieter Abbeel, Sergey Levine*
+- `2017-03-09`
+
 ##### [On First-Order Meta-Learning Algorithms]
 - On First-Order Meta-Learning Algorithms [[arXiv]](https://arxiv.org/abs/1803.02999)
 - *Alex Nichol, Joshua Achiam, John Schulman*
