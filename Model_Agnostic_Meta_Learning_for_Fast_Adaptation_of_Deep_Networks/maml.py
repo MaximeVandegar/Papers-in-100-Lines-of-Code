@@ -93,7 +93,7 @@ def maml(model, meta_optimizer, inner_training_steps, nb_epochs, batch_size_K, a
             f_theta_prime = MLP().to(device)
             f_theta_prime.load_state_dict(theta_i_prime[i])
 
-            # Compute \nabla L(f_theta_i_prime) for task ti
+            # Compute \nabla_theta L(f_theta_i_prime) for task ti
             loss = loss_fct(f_theta_prime(x.to(device)), y.to(device))
             loss.backward()
             batch_training_loss.append(loss.item())
