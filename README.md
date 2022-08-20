@@ -1,8 +1,18 @@
+![my badge](https://badgen.net/badge/Papers%20implemented/17)
+[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
+![Size](https://github-size-badge.herokuapp.com/MaximeVandegar/Papers-in-100-Lines-of-Code.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
 # Papers in 100 Lines of Code
 
 Implementation of papers in 100 lines of code. 
 
 ## Implemented papers
+
+##### [Maxout Networks]
+- Maxout Networks [[arXiv]](https://arxiv.org/abs/1302.4389)
+- *Ian J. Goodfellow, David Warde-Farley, Mehdi Mirza, Aaron Courville, Yoshua Bengio*
+- `2013-02-18`
 
 ##### [Auto-Encoding Variational Bayes]
 - Auto-Encoding Variational Bayes [[arXiv]](https://arxiv.org/abs/1312.6114)
@@ -13,6 +23,11 @@ Implementation of papers in 100 lines of code.
 - Generative Adversarial Networks [[arXiv]](https://arxiv.org/abs/1406.2661)
 - *Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio*
 - `2014-06-10`
+
+##### [Conditional Generative Adversarial Nets]
+- Conditional Generative Adversarial Nets [[arXiv]](https://arxiv.org/abs/1411.1784)
+- *Mehdi Mirza, Simon Osindero*
+- `2014-11-06`
 
 ##### [NICE: Non-linear Independent Components Estimation]
 - NICE: Non-linear Independent Components Estimation [[arXiv]](https://arxiv.org/abs/1410.8516)

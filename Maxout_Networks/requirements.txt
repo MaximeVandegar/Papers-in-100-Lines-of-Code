@@ -1,0 +1,6 @@
+keras==2.8.0
+matplotlib==3.2.2
+numpy==1.21.6
+seaborn==0.11.2
+torch==1.12.1+cu113
+tqdm==4.64.0
