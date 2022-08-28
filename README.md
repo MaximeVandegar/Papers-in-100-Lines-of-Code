@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/17)
+![my badge](https://badgen.net/badge/Papers%20implemented/18)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 ![Size](https://github-size-badge.herokuapp.com/MaximeVandegar/Papers-in-100-Lines-of-Code.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
@@ -38,6 +38,11 @@ Implementation of papers in 100 lines of code.
 - Variational Inference with Normalizing Flows [[arXiv]](https://arxiv.org/abs/1505.05770)
 - *Danilo Jimenez Rezende, Shakir Mohamed*
 - `2015-05-21`
+
+##### [Improved Techniques for Training GANs]
+- Improved Techniques for Training GANs [[arXiv]](https://arxiv.org/abs/1606.03498)
+- *Tim Salimans, Ian Goodfellow, Wojciech Zaremba, Vicki Cheung, Alec Radford, Xi Chen*
+- `2016-06-10`
 
 ##### [Least Squares Generative Adversarial Networks]
 - Least Squares Generative Adversarial Networks [[arXiv]](https://arxiv.org/abs/1611.04076)
