@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/19)
+![my badge](https://badgen.net/badge/Papers%20implemented/20)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 ![Size](https://github-size-badge.herokuapp.com/MaximeVandegar/Papers-in-100-Lines-of-Code.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
@@ -58,6 +58,11 @@ Implementation of papers in 100 lines of code.
 - Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks [[arXiv]](https://arxiv.org/abs/1703.03400)
 - *Chelsea Finn, Pieter Abbeel, Sergey Levine*
 - `2017-03-09`
+
+##### [Adversarial Feature Learning]
+- Adversarial Feature Learning [[arXiv]](https://arxiv.org/abs/1605.09782)
+- *Jeff Donahue, Philipp Krähenbühl, Trevor Darrell*
+- `2017-04-03`
 
 ##### [On First-Order Meta-Learning Algorithms]
 - On First-Order Meta-Learning Algorithms [[arXiv]](https://arxiv.org/abs/1803.02999)
