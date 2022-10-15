@@ -1,6 +1,5 @@
 ![my badge](https://badgen.net/badge/Papers%20implemented/21)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
-![Size](https://github-size-badge.herokuapp.com/MaximeVandegar/Papers-in-100-Lines-of-Code.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 # Papers in 100 Lines of Code
