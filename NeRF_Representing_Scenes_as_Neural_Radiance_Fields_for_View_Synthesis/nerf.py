@@ -30,17 +30,17 @@ class NerfModel(nn.Module):
     def __init__(self, embedding_dim_pos=20, embedding_dim_direction=8, hidden_dim=128):
         super(NerfModel, self).__init__()
 
-        self.block1 = nn.Sequential(nn.Linear(embedding_dim_pos * 3, hidden_dim), nn.ReLU(),
+        self.block1 = nn.Sequential(nn.Linear(embedding_dim_pos * 3 + 3, hidden_dim), nn.ReLU(),
                                     nn.Linear(hidden_dim, hidden_dim), nn.ReLU(),
                                     nn.Linear(hidden_dim, hidden_dim), nn.ReLU(),
                                     nn.Linear(hidden_dim, hidden_dim), nn.ReLU(), )
 
-        self.block2 = nn.Sequential(nn.Linear(embedding_dim_pos * 3 + hidden_dim, hidden_dim), nn.ReLU(),
+        self.block2 = nn.Sequential(nn.Linear(embedding_dim_pos * 3 + hidden_dim + 3, hidden_dim), nn.ReLU(),
                                     nn.Linear(hidden_dim, hidden_dim), nn.ReLU(),
                                     nn.Linear(hidden_dim, hidden_dim), nn.ReLU(),
                                     nn.Linear(hidden_dim, hidden_dim + 1), )
 
-        self.block3 = nn.Sequential(nn.Linear(embedding_dim_direction * 3 + hidden_dim, hidden_dim // 2), nn.ReLU(), )
+        self.block3 = nn.Sequential(nn.Linear(embedding_dim_direction * 3 + hidden_dim + 3, hidden_dim // 2), nn.ReLU(), )
         self.block4 = nn.Sequential(nn.Linear(hidden_dim // 2, 3), nn.Sigmoid(), )
 
         self.embedding_dim_pos = embedding_dim_pos
@@ -49,14 +49,11 @@ class NerfModel(nn.Module):
 
     @staticmethod
     def positional_encoding(x, L):
-        out = torch.empty(x.shape[0], x.shape[1] * 2 * L, device=x.device)
-        for i in range(x.shape[1]):
-            for j in range(L):
-                # As opposed to what is mentioned in the paper, there is no multiplication by pi.
-                # See https://github.com/bmild/nerf/issues/12
-                out[:, i * (2 * L) + 2 * j] = torch.sin(2 ** j * x[:, i])
-                out[:, i * (2 * L) + 2 * j + 1] = torch.cos(2 ** j * x[:, i])
-        return out
+        out = [x]
+        for j in range(L):
+            out.append(torch.sin(2 ** j * x))
+            out.append(torch.cos(2 ** j * x))
+        return torch.cat(out, dim=1)
 
     def forward(self, o, d):
         emb_x = self.positional_encoding(o, self.embedding_dim_pos // 2)
@@ -71,9 +68,8 @@ class NerfModel(nn.Module):
 
 def compute_accumulated_transmittance(alphas):
     accumulated_transmittance = torch.cumprod(alphas, 1)
-    accumulated_transmittance[:, 1:] = accumulated_transmittance[:, :-1]  # shifting because summing from j=1 to j=i-1
-    accumulated_transmittance[:, 0] = 1.
-    return accumulated_transmittance
+    return torch.cat((torch.ones((accumulated_transmittance.shape[0], 1), device=alphas.device),
+                      accumulated_transmittance[:, :-1]), dim=-1)
 
 
 def render_rays(nerf_model, ray_origins, ray_directions, hn=0, hf=0.5, nb_bins=192):
