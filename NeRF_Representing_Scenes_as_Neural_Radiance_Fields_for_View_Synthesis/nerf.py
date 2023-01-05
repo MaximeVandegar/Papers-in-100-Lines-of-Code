@@ -91,8 +91,10 @@ def render_rays(nerf_model, ray_origins, ray_directions, hn=0, hf=0.5, nb_bins=1
     sigma = sigma.reshape(x.shape[:-1])
 
     alpha = 1 - torch.exp(-sigma * delta)  # [batch_size, nb_bins]
-    T = compute_accumulated_transmittance(1 - alpha)   # [batch_size, nb_bins]
-    return (T.unsqueeze(2) * alpha.unsqueeze(2) * colors).sum(dim=1)  # Pixel values
+    weights = compute_accumulated_transmittance(1 - alpha).unsqueeze(2) * alpha.unsqueeze(2)
+    c = (weights * colors).sum(dim=1)  # Pixel values
+    weight_sum = weights.sum(-1).sum(-1)  # Regularization for white background
+    return c + 1 - weight_sum.unsqueeze(-1)
 
 
 def train(nerf_model, optimizer, scheduler, data_loader, device='cpu', hn=0, hf=1, nb_epochs=int(1e5),
