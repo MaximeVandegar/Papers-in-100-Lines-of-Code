@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/22)
+![my badge](https://badgen.net/badge/Papers%20implemented/23)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -112,6 +112,11 @@ Implementation of papers in 100 lines of code.
 - FastNeRF: High-Fidelity Neural Rendering at 200FPS [[arXiv]](https://arxiv.org/abs/2103.10380)
 - *Stephan J. Garbin, Marek Kowalski, Matthew Johnson, Jamie Shotton, Julien Valentin*
 - `2021-03-18`
+
+##### [KiloNeRF: Speeding up Neural Radiance Fields with Thousands of Tiny MLPs]
+- KiloNeRF: Speeding up Neural Radiance Fields with Thousands of Tiny MLPs [[arXiv]](https://arxiv.org/abs/2103.13744)
+- *Christian Reiser, Songyou Peng, Yiyi Liao, Andreas Geiger*
+- `2021-03-25`
 
 ##### [Gromov-Wasserstein Distances between Gaussian Distributions]
 - Gromov-Wasserstein Distances between Gaussian Distributions [[arXiv]](https://arxiv.org/abs/2104.07970)
