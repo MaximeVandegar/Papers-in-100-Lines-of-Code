@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/23)
+![my badge](https://badgen.net/badge/Papers%20implemented/24)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -27,6 +27,11 @@ Implementation of papers in 100 lines of code.
 - Conditional Generative Adversarial Nets [[arXiv]](https://arxiv.org/abs/1411.1784)
 - *Mehdi Mirza, Simon Osindero*
 - `2014-11-06`
+
+##### [Adam: A Method for Stochastic Optimization]
+- Adam: A Method for Stochastic Optimization [[arXiv]](https://arxiv.org/abs/1412.6980)
+- *Diederik P. Kingma, Jimmy Ba*
+- `2014-12-22`
 
 ##### [NICE: Non-linear Independent Components Estimation]
 - NICE: Non-linear Independent Components Estimation [[arXiv]](https://arxiv.org/abs/1410.8516)
