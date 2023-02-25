@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/24)
+![my badge](https://badgen.net/badge/Papers%20implemented/25)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -82,6 +82,11 @@ Implementation of papers in 100 lines of code.
 - Sequential Neural Likelihood: Fast Likelihood-free Inference with Autoregressive Flows [[arXiv]](https://arxiv.org/abs/1805.07226)
 - *George Papamakarios, David C. Sterratt, Iain Murray*
 - `2018-05-18`
+
+##### [On the Variance of the Adaptive Learning Rate and Beyond]
+- On the Variance of the Adaptive Learning Rate and Beyond [[arXiv]](https://arxiv.org/abs/1908.03265)
+- *Liyuan Liu, Haoming Jiang, Pengcheng He, Weizhu Chen, Xiaodong Liu, Jianfeng Gao, Jiawei Han*
+- `2019-08-08`
 
 ##### [Optimizing Millions of Hyperparameters by Implicit Differentiation]
 - Optimizing Millions of Hyperparameters by Implicit Differentiation [[PMLR]](https://proceedings.mlr.press/v108/lorraine20a)
