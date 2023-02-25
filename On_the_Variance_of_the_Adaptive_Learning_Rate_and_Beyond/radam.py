@@ -94,4 +94,4 @@ if __name__ == "__main__":
     plt.legend()
     plt.xlabel('Epochs (x100)')
     plt.ylabel('Testing accuracy', fontsize=14)
-    plt.savefig('RAdam.png', bbox_inches='tight', fontsize=14)
+    plt.savefig('Imgs/RAdam.png', bbox_inches='tight', fontsize=14)
