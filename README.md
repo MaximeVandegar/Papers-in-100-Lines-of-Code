@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/27)
+![my badge](https://badgen.net/badge/Papers%20implemented/28)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -142,3 +142,8 @@ Implementation of papers in 100 lines of code.
 - Gromov-Wasserstein Distances between Gaussian Distributions [[arXiv]](https://arxiv.org/abs/2104.07970)
 - *Antoine Salmona, Julie Delon, Agnès Desolneux*
 - `2021-08-16`
+
+##### [InfoNeRF: Ray Entropy Minimization for Few-Shot Neural Volume Rendering]
+- InfoNeRF: Ray Entropy Minimization for Few-Shot Neural Volume Rendering [[arXiv]](https://arxiv.org/abs/2112.15399)
+- *Mijeong Kim, Seonguk Seo, Bohyung Han*
+- `2021-12-31`
