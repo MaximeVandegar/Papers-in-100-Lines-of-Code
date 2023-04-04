@@ -11,6 +11,8 @@ $ python3 dqn.py
 
 ## Results
 
+![](dqn.gif)
+
 #### Average reward on Breakout
 ![](Imgs/average_reward_on_breakout.png)
 
