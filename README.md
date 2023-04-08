@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/29)
+![my badge](https://badgen.net/badge/Papers%20implemented/30)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -152,3 +152,8 @@ Implementation of papers in 100 lines of code.
 - InfoNeRF: Ray Entropy Minimization for Few-Shot Neural Volume Rendering [[arXiv]](https://arxiv.org/abs/2112.15399)
 - *Mijeong Kim, Seonguk Seo, Bohyung Han*
 - `2021-12-31`
+
+##### [K-Planes: Explicit Radiance Fields in Space, Time, and Appearance]
+- K-Planes: Explicit Radiance Fields in Space, Time, and Appearance [[arXiv]](https://arxiv.org/abs/2301.10241)
+- *Sara Fridovich-Keil, Giacomo Meanti, Frederik Warburg, Benjamin Recht, Angjoo Kanazawa*
+- `2023-01-24`
