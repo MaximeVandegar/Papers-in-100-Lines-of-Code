@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/30)
+![my badge](https://badgen.net/badge/Papers%20implemented/31)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -157,3 +157,8 @@ Implementation of papers in 100 lines of code.
 - K-Planes: Explicit Radiance Fields in Space, Time, and Appearance [[arXiv]](https://arxiv.org/abs/2301.10241)
 - *Sara Fridovich-Keil, Giacomo Meanti, Frederik Warburg, Benjamin Recht, Angjoo Kanazawa*
 - `2023-01-24`
+
+##### [FreeNeRF: Improving Few-shot Neural Rendering with Free Frequency Regularization]
+- FreeNeRF: Improving Few-shot Neural Rendering with Free Frequency Regularization [[arXiv]](https://arxiv.org/abs/2303.07418)
+- *Jiawei Yang, Marco Pavone, Yue Wang*
+- `2023-03-13`
