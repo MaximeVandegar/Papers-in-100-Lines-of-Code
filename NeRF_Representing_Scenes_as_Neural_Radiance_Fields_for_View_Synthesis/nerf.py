@@ -42,7 +42,7 @@ def test(hn, hf, dataset, chunk_size=10, img_index=0, nb_bins=192, H=400, W=400)
 
 class NerfModel(nn.Module):
     def __init__(self, embedding_dim_pos=10, embedding_dim_direction=4, hidden_dim=128):   
-        super(NerfModel, self).__init__() # call __init__() of nn.Module
+        super(NerfModel, self).__init__()
         
         self.block1 = nn.Sequential(nn.Linear(embedding_dim_pos * 6 + 3, hidden_dim), nn.ReLU(),
                                     nn.Linear(hidden_dim, hidden_dim), nn.ReLU(),
@@ -62,7 +62,7 @@ class NerfModel(nn.Module):
         self.relu = nn.ReLU()
 
     @staticmethod
-    def positional_encoding(x, L): # block1
+    def positional_encoding(x, L):
         out = [x]
         for j in range(L):
             out.append(torch.sin(2 ** j * x))
@@ -111,8 +111,7 @@ def render_rays(nerf_model, ray_origins, ray_directions, hn=0, hf=0.5, nb_bins=1
     weights = compute_accumulated_transmittance(1 - alpha).unsqueeze(2) * alpha.unsqueeze(2)
     # Compute the pixel values as a weighted sum of colors along each ray
     c = (weights * colors).sum(dim=1)
-    # Regularization for white background
-    weight_sum = weights.sum(-1).sum(-1)  
+    weight_sum = weights.sum(-1).sum(-1)  # Regularization for white background 
     return c + 1 - weight_sum.unsqueeze(-1)
 
 
