@@ -30,7 +30,6 @@ def test(hn, hf, dataset, chunk_size=10, img_index=0, nb_bins=192, H=400, W=400)
         # Get chunk of rays
         ray_origins_ = ray_origins[i * W * chunk_size: (i + 1) * W * chunk_size].to(device)
         ray_directions_ = ray_directions[i * W * chunk_size: (i + 1) * W * chunk_size].to(device)        
-        # Regenerate pixel values
         regenerated_px_values = render_rays(model, ray_origins_, ray_directions_, hn=hn, hf=hf, nb_bins=nb_bins)
         data.append(regenerated_px_values)
     img = torch.cat(data).data.cpu().numpy().reshape(H, W, 3)
@@ -143,7 +142,6 @@ def train(nerf_model, optimizer, scheduler, data_loader, device='cpu', hn=0, hf=
 if __name__ == 'main':
     device = 'cuda'
     
-    # Load the training and testing datasets
     training_dataset = torch.from_numpy(np.load('training_data.pkl', allow_pickle=True))
     testing_dataset = torch.from_numpy(np.load('testing_data.pkl', allow_pickle=True))
     model = NerfModel(hidden_dim=256).to(device)
