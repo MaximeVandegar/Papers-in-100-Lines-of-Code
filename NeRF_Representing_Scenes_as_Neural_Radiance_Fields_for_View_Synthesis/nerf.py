@@ -138,7 +138,7 @@ def train(nerf_model, optimizer, scheduler, data_loader, device='cpu', hn=0, hf=
     return training_loss
 
 
-if __name__ == 'main':
+if __name__ == '__main__':
     device = 'cuda'
     
     training_dataset = torch.from_numpy(np.load('training_data.pkl', allow_pickle=True))
