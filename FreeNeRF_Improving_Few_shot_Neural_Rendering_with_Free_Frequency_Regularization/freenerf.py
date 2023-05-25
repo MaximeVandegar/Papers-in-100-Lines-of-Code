@@ -120,7 +120,7 @@ def train(nerf_model, optimizer, training_data, nb_epochs, batch_size, device='c
     return training_loss
 
 
-if __name__ == 'main':
+if __name__ == '__main__':
     device = 'cuda'
     training_dataset = torch.from_numpy(np.load('training_data.pkl', allow_pickle=True))
     testing_dataset = torch.from_numpy(np.load('testing_data.pkl', allow_pickle=True))
