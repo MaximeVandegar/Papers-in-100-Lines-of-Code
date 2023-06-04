@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/31)
+![my badge](https://badgen.net/badge/Papers%20implemented/32)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -42,6 +42,11 @@ Implementation of papers in 100 lines of code.
 - NICE: Non-linear Independent Components Estimation [[arXiv]](https://arxiv.org/abs/1410.8516)
 - *Laurent Dinh, David Krueger, Yoshua Bengio*
 - `2014-10-30`
+
+##### [Deep Unsupervised Learning using Nonequilibrium Thermodynamics]
+- Deep Unsupervised Learning using Nonequilibrium Thermodynamics [[arXiv]](https://arxiv.org/abs/1503.03585)
+- *Jascha Sohl-Dickstein, Eric A. Weiss, Niru Maheswaranathan, Surya Ganguli*
+- `2015-03-12`
 
 ##### [Variational Inference with Normalizing Flows]
 - Variational Inference with Normalizing Flows [[arXiv]](https://arxiv.org/abs/1505.05770)
