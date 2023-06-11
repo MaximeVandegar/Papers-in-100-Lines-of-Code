@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/32)
+![my badge](https://badgen.net/badge/Papers%20implemented/33)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -57,6 +57,11 @@ Implementation of papers in 100 lines of code.
 - Convolutional Generative Adversarial Networks [[arXiv]](https://arxiv.org/abs/1511.06434)
 - *Alec Radford, Luke Metz, Soumith Chintala*
 - `2015-11-19`
+
+##### [Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)]
+- Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs) [[arXiv]](https://arxiv.org/abs/1511.07289)
+- *Djork-Arné Clevert, Thomas Unterthiner, Sepp Hochreiter*
+- `2015-11-23`
 
 ##### [Adversarially Learned Inference]
 - Adversarially Learned Inference [[arXiv]](https://arxiv.org/abs/1606.00704)
