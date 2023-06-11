@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/33)
+![my badge](https://badgen.net/badge/Papers%20implemented/34)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -72,6 +72,11 @@ Implementation of papers in 100 lines of code.
 - Improved Techniques for Training GANs [[arXiv]](https://arxiv.org/abs/1606.03498)
 - *Tim Salimans, Ian Goodfellow, Wojciech Zaremba, Vicki Cheung, Alec Radford, Xi Chen*
 - `2016-06-10`
+
+##### [Gaussian Error Linear Units (GELUs)]
+- Gaussian Error Linear Units (GELUs) [[arXiv]](https://arxiv.org/abs/1606.08415)
+- *Dan Hendrycks, Kevin Gimpel*
+- `2016-06-27`
 
 ##### [Least Squares Generative Adversarial Networks]
 - Least Squares Generative Adversarial Networks [[arXiv]](https://arxiv.org/abs/1611.04076)
