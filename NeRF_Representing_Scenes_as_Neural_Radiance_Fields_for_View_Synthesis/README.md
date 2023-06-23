@@ -5,9 +5,12 @@ Implementation in 100 lines of code of the paper [NeRF: Representing Scenes as N
 
 ## Usage
 
-**Dataset:** [Download the training and testing datasets](https://drive.google.com/drive/folders/18bwm-RiHETRCS5yD9G00seFIcrJHIvD-?usp=sharing).
+**Dataset:** [Download the training and testing datasets](https://drive.google.com/drive/folders/18bwm-RiHETRCS5yD9G00seFIcrJHIvD-?usp=sharing) and save in `data` folder.
 ```commandline
 $ pip3 install -r requirements.txt
+$ mkdir data && cd data
+$ gdown 1hH7NhaXxIthO9-FeT16fvpf_MVIhf41J  
+$ gdown 16M64h0KKgFKhM8hJDpqd15YWYhafUs2Q 
 $ python3 nerf.py
 ```
 
