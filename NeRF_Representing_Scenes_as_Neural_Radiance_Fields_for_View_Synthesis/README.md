@@ -1,7 +1,6 @@
 # NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis
 
-Implementation in 100 lines of code of the paper [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis
-](https://arxiv.org/abs/2003.08934).
+#### Code from the course [Introduction to NeRF, volumetric rendering, and 3D reconstruction](https://www.udemy.com/course/neural-radiance-fields-nerf/?referralCode=DD33817D57404AF048DF).
 
 ## Usage
 
