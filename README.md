@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/34)
+![my badge](https://badgen.net/badge/Papers%20implemented/35)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -92,6 +92,11 @@ Implementation of papers in 100 lines of code.
 - Adversarial Feature Learning [[arXiv]](https://arxiv.org/abs/1605.09782)
 - *Jeff Donahue, Philipp Krähenbühl, Trevor Darrell*
 - `2017-04-03`
+
+##### [Deep Image Prior]
+- Deep Image Prior [[arXiv]](https://arxiv.org/abs/1711.10925)
+- *Dmitry Ulyanov, Andrea Vedaldi, Victor Lempitsky*
+- `2017-11-29`
 
 ##### [On First-Order Meta-Learning Algorithms]
 - On First-Order Meta-Learning Algorithms [[arXiv]](https://arxiv.org/abs/1803.02999)
