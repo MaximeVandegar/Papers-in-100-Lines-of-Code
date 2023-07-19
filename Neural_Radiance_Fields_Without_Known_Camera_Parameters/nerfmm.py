@@ -177,7 +177,7 @@ def sample_batch(camera_extrinsics, camera_intrinsics, images, batch_size, H, W,
     return rays_o_world, F.normalize(rays_d_world, p=2, dim=1), (image_indices, v.cpu(), u.cpu())
 
 
-if __name__ == 'main':
+if __name__ == "__main__":
     device = 'cuda'
     nb_epochs = int(1e4)
 
