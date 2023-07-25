@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/35)
+![my badge](https://badgen.net/badge/Papers%20implemented/36)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -142,6 +142,11 @@ Implementation of papers in 100 lines of code.
 - Multiplicative Filter Networks [[OpenReview]](https://openreview.net/forum?id=OmtmcPkkhT)
 - *Rizal Fathony, Anit Kumar Sahu, Devin Willmott, J Zico Kolter*
 - `2020-09-28`
+
+##### [Learned Initializations for Optimizing Coordinate-Based Neural Representations]
+- Learned Initializations for Optimizing Coordinate-Based Neural Representations [[arXiv]](https://arxiv.org/abs/2012.02189)
+- *Matthew Tancik, Ben Mildenhall, Terrance Wang, Divi Schmidt, Pratul P. Srinivasan, Jonathan T. Barron, Ren Ng*
+- `2020-12-03`
 
 ##### [FastNeRF: High-Fidelity Neural Rendering at 200FPS]
 - FastNeRF: High-Fidelity Neural Rendering at 200FPS [[arXiv]](https://arxiv.org/abs/2103.10380)
