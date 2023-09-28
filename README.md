@@ -134,7 +134,7 @@ Implementation of papers in 100 lines of code.
 - `2020-06-18`
 
 ##### [Denoising Diffusion Probabilistic Models]
-- Denoising Diffusion Probabilistic Models [[arXiv]](https://arxiv.org/abs/2006.10739)
+- Denoising Diffusion Probabilistic Models [[arXiv]](https://arxiv.org/abs/2006.11239)
 - *Jonathan Ho, Ajay Jain, Pieter Abbeel*
 - `2020-06-19`
 
