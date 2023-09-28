@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/38)
+![my badge](https://badgen.net/badge/Papers%20implemented/39)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -132,6 +132,11 @@ Implementation of papers in 100 lines of code.
 - Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains [[arXiv]](https://arxiv.org/abs/2006.10739)
 - *Matthew Tancik, Pratul P. Srinivasan, Ben Mildenhall, Sara Fridovich-Keil, Nithin Raghavan, Utkarsh Singhal, Ravi Ramamoorthi, Jonathan T. Barron, Ren Ng*
 - `2020-06-18`
+
+##### [Denoising Diffusion Probabilistic Models]
+- Denoising Diffusion Probabilistic Models [[arXiv]](https://arxiv.org/abs/2006.10739)
+- *Jonathan Ho, Ajay Jain, Pieter Abbeel*
+- `2020-06-19`
 
 ##### [Likelihood-free MCMC with Amortized Approximate Ratio Estimators]
 - Likelihood-free MCMC with Amortized Approximate Ratio Estimators [[PMLR]](http://proceedings.mlr.press/v108/lorraine20a)
