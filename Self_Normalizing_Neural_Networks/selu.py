@@ -89,7 +89,7 @@ def _init_weights(module, init_gain=1.):
 
 if __name__ == "__main__":
     device = 'cuda'
-    nb_epochs = 20
+    nb_epochs = 2000
     dataset = DataLoader([[trainX[i], trainy[i]] for i in range(trainX.shape[0])], batch_size=128, shuffle=True)
 
     training_loss_snn = {}
