@@ -38,7 +38,7 @@ class Distribution:
         return self.m.sample(size)
 
 
-if __name__ == 'main':
+if __name__ == '__main__':
     target_means = [[0., 0.], [0., 0.], [0., 0.]]
     target_covariances = [[[4.1, 4.],
                            [4., 4.1]],
