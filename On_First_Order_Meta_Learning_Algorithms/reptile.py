@@ -66,7 +66,7 @@ def perform_k_training_steps(model, task, k, batch_size=10):
     return [p for p in model.parameters()]
 
 
-if __name__ == 'main':
+if __name__ == "__main__":
     model = MLP()
     reptile(model, 30000, sample_task, perform_k_training_steps)
 
