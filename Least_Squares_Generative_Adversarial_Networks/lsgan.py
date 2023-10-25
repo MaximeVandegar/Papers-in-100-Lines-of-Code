@@ -102,8 +102,11 @@ def show_distribution(ax, data, epoch, fontsize=17):
     ax.set_xlabel('Step ' + str(epoch // 1000) + 'k', fontsize=fontsize)
 
 
-if __name__ == 'main':
-    device = 'cuda'
+if __name__ == '__main__':
+    try:
+        device = 'cuda'
+    except:
+        device = 'cpu'
     discriminator = Discriminator().to(device)
     generator = Generator().to(device)
     optimizer_d = optim.Adam(discriminator.parameters(), lr=1e-4)
