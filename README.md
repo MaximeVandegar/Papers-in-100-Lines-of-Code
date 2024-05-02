@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/39)
+![my badge](https://badgen.net/badge/Papers%20implemented/40)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -12,6 +12,11 @@ Implementation of papers in 100 lines of code.
 - Maxout Networks [[arXiv]](https://arxiv.org/abs/1302.4389)
 - *Ian J. Goodfellow, David Warde-Farley, Mehdi Mirza, Aaron Courville, Yoshua Bengio*
 - `2013-02-18`
+
+##### [Network In Network]
+- Network In Network [[arXiv]](https://arxiv.org/abs/1312.4400)
+- *Min Lin, Qiang Chen, Shuicheng Yan*
+- `2013-12-13`
 
 ##### [Playing Atari with Deep Reinforcement Learning]
 - Playing Atari with Deep Reinforcement Learning [[arXiv]](https://arxiv.org/abs/1312.5602)
