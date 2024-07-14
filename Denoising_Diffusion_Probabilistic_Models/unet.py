@@ -17,7 +17,7 @@ def get_timestep_embedding(timesteps, embedding_dim: int):
     emb = torch.concat([torch.sin(emb), torch.cos(emb)], axis=1)
 
     if embedding_dim % 2 == 1:  # zero pad
-        emb = torch.pad(emb, [[0, 0], [0, 1]])
+        emb = torch.nn.functional.pad(emb, (0, 1, 0, 0))
 
     assert emb.shape == (timesteps.shape[0], embedding_dim), f"{emb.shape}"
     return emb
@@ -70,7 +70,7 @@ class Nin(nn.Module):
         self.b = torch.nn.Parameter(torch.zeros((1, out_dim, 1, 1), dtype=torch.float32))
 
     def forward(self, x):
-        return torch.einsum('bchw, co->bowh', x, self.W) + self.b
+        return torch.einsum('bchw, co->bohw', x, self.W) + self.b
 
 
 class ResNetBlock(nn.Module):
