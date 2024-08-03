@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/41)
+![my badge](https://badgen.net/badge/Papers%20implemented/42)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -87,6 +87,11 @@ Implementation of papers in 100 lines of code.
 - Least Squares Generative Adversarial Networks [[arXiv]](https://arxiv.org/abs/1611.04076)
 - *Xudong Mao, Qing Li, Haoran Xie, Raymond Y.K. Lau, Zhen Wang, Stephen Paul Smolley*
 - `2016-11-13`
+
+##### [Image-to-Image Translation with Conditional Adversarial Networks]
+- Image-to-Image Translation with Conditional Adversarial Networks [[arXiv]](https://arxiv.org/abs/1611.07004)
+- *Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, Alexei A. Efros*
+- `2016-11-21`
 
 ##### [Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks]
 - Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks [[arXiv]](https://arxiv.org/abs/1703.03400)
