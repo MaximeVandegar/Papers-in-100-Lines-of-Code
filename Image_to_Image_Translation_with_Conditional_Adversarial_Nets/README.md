@@ -1,16 +1,18 @@
-# Adversarial Feature Learning
+# Image-to-Image Translation with Conditional Adversarial Networks
 
-Implementation in 100 lines of code of the paper [Adversarial Feature Learning](https://arxiv.org/abs/1605.09782).
+Implementation in 100 lines of code of the paper [Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/abs/1611.07004).
 
 ## Usage
 
+**Dataset:** [Download the training and testing datasets](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/tree/master?tab=readme-ov-file#pix2pix-traintest).
+
 ```commandline
 $ pip3 install -r requirements.txt
-$ python3 adversarial_feature_learning.py
+$ python3 pix2pix.py
 ```
 
 ## Results
 
-#### Qualitative results for permutation-invariant MNIST BiGAN training, including generator samples G(z), real data x, and corresponding reconstructions G(E(x)).
-![](Imgs/adversarial_feature_learning.png)
+#### Results of the method on facades labels→photo, compared to ground truth.
+![](Imgs/pix2pix.png)
 
