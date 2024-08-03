@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/42)
+![my badge](https://badgen.net/badge/Papers%20implemented/43)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -207,6 +207,11 @@ Implementation of papers in 100 lines of code.
 - Instant Neural Graphics Primitives with a Multiresolution Hash Encoding [[arXiv]](https://arxiv.org/abs/2201.05989)
 - *Thomas Müller, Alex Evans, Christoph Schied, Alexander Keller*
 - `2022-01-16`
+
+##### [Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow]
+- Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow [[arXiv]](https://arxiv.org/abs/2209.03003)
+- *Xingchao Liu, Chengyue Gong, Qiang Liu*
+- `2022-09-07`
 
 ##### [K-Planes: Explicit Radiance Fields in Space, Time, and Appearance]
 - K-Planes: Explicit Radiance Fields in Space, Time, and Appearance [[arXiv]](https://arxiv.org/abs/2301.10241)
