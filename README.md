@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/46)
+![my badge](https://badgen.net/badge/Papers%20implemented/47)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -57,6 +57,11 @@ Implementation of papers in 100 lines of code.
 - Variational Inference with Normalizing Flows [[arXiv]](https://arxiv.org/abs/1505.05770)
 - *Danilo Jimenez Rezende, Shakir Mohamed*
 - `2015-05-21`
+
+##### [Deep Reinforcement Learning with Double Q-learning]
+- Deep Reinforcement Learning with Double Q-learning [[arXiv]](https://arxiv.org/abs/1509.06461)
+- *Hado van Hasselt, Arthur Guez, David Silver*
+- `2015-09-22`
 
 ##### [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks]
 - Convolutional Generative Adversarial Networks [[arXiv]](https://arxiv.org/abs/1511.06434)
