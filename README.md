@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/47)
+![my badge](https://badgen.net/badge/Papers%20implemented/48)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -127,6 +127,11 @@ Implementation of papers in 100 lines of code.
 - Self-Normalizing Neural Networks [[arXiv]](https://arxiv.org/abs/1706.02515)
 - *Günter Klambauer, Thomas Unterthiner, Andreas Mayr, Sepp Hochreiter*
 - `2017-06-08`
+
+##### [Proximal Policy Optimization Algorithms]
+- Proximal Policy Optimization Algorithms [[arXiv]](https://arxiv.org/abs/1707.06347)
+- *John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, Oleg Klimov*
+- `2017-08-28`
 
 ##### [Deep Image Prior]
 - Deep Image Prior [[arXiv]](https://arxiv.org/abs/1711.10925)
