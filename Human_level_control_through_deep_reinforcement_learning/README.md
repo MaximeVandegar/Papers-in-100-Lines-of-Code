@@ -1,6 +1,6 @@
-# Playing Atari with Deep Reinforcement Learning
+# Human-level control through deep reinforcement learning
 
-Implementation in 100 lines of code of the paper [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/abs/1312.5602).
+Implementation in 100 lines of code of the paper [Human-level control through deep reinforcement learning](https://www.nature.com/articles/nature14236).
 
 ## Usage
 
