@@ -24,8 +24,8 @@ class DQN(nn.Module):
 
 
 def Deep_Q_Learning(env, buffer_size=1_000_000, nb_epochs=30_000_000, train_frequency=4, batch_size=32,
-                    gamma=0.99, replay_start_size=50_000, epsilon_start=1, epsilon_end=0.1,
-                    exploration_steps=1_000_000, device='cuda', C=10_000):
+                    gamma=0.99, replay_start_size=50_000, epsilon_start=1, epsilon_end=0.01,
+                    exploration_steps=1_000_000, device='cuda', C=5_000):
     # Initialize replay memory D to capacity N
     rb = ReplayBuffer(buffer_size, env.observation_space, env.action_space, device,
                       optimize_memory_usage=True, handle_timeout_termination=False)
@@ -36,7 +36,7 @@ def Deep_Q_Learning(env, buffer_size=1_000_000, nb_epochs=30_000_000, train_freq
     target_network = DQN(env.action_space.n).to(device)
     target_network.load_state_dict(q_network.state_dict())
 
-    optimizer = torch.optim.Adam(q_network.parameters(), lr=1.25e-4)
+    optimizer = torch.optim.Adam(q_network.parameters(), lr=5e-5)
 
     epoch = 0
     smoothed_rewards = []
@@ -85,7 +85,8 @@ def Deep_Q_Learning(env, buffer_size=1_000_000, nb_epochs=30_000_000, train_freq
                 # Sample random minibatch of transitions (φj , aj , rj , φj +1 ) from D
                 data = rb.sample(batch_size)
                 with torch.no_grad():
-                    max_target_q_value, _ = target_network(data.next_observations).max(dim=1)
+                    action = torch.argmax(q_network(torch.Tensor(data.next_observations).to(device)), dim=1)
+                    max_target_q_value = target_network(data.next_observations).gather(1, action.unsqueeze(-1)).squeeze()
                     y = data.rewards.flatten() + gamma * max_target_q_value * (1 - data.dones.flatten())
                 current_q_value = q_network(data.observations).gather(1, data.actions).squeeze()
                 loss = F.huber_loss(y, current_q_value)
