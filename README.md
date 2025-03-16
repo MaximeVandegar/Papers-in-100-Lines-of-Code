@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/49)
+![my badge](https://badgen.net/badge/Papers%20implemented/50)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -192,6 +192,11 @@ Implementation of papers in 100 lines of code.
 - Multiplicative Filter Networks [[OpenReview]](https://openreview.net/forum?id=OmtmcPkkhT)
 - *Rizal Fathony, Anit Kumar Sahu, Devin Willmott, J Zico Kolter*
 - `2020-09-28`
+
+##### [Denoising Diffusion Implicit Models]
+- Denoising Diffusion Implicit Models [[arXiv]](https://arxiv.org/abs/2010.02502)
+- *Jiaming Song, Chenlin Meng, Stefano Ermon*
+- `2020-10-06`
 
 ##### [Learned Initializations for Optimizing Coordinate-Based Neural Representations]
 - Learned Initializations for Optimizing Coordinate-Based Neural Representations [[arXiv]](https://arxiv.org/abs/2012.02189)
