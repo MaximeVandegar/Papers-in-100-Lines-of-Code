@@ -66,7 +66,7 @@ if __name__ == "__main__":
     diffusion = DiffusionModel(1000, model, 'cuda')
 
     nb_images = 81
-    samples = diffusion.dpm_solver_sampling(n_samples=nb_images, n_steps=5, use_tqdm=True)
+    samples = diffusion.dpm_solver_sampling(n_samples=nb_images, n_steps=10, use_tqdm=True)
 
     plt.figure(figsize=(17, 17))
     for i in range(nb_images):
