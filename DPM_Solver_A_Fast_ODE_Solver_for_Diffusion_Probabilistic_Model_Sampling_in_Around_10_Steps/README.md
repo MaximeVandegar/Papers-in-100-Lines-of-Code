@@ -18,4 +18,4 @@ $ python3 dpm_solver.py
 
 
 
- ![](Imgs/ddim_samples.png)
+ ![](Imgs/dpm2_samples.png)
