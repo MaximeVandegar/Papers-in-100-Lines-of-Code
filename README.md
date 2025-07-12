@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/51)
+![my badge](https://badgen.net/badge/Papers%20implemented/52)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -242,6 +242,11 @@ Implementation of papers in 100 lines of code.
 - Instant Neural Graphics Primitives with a Multiresolution Hash Encoding [[arXiv]](https://arxiv.org/abs/2201.05989)
 - *Thomas Müller, Alex Evans, Christoph Schied, Alexander Keller*
 - `2022-01-16`
+
+##### [Pseudo Numerical Methods for Diffusion Models on Manifolds]
+- Pseudo Numerical Methods for Diffusion Models on Manifolds [[arXiv]](https://arxiv.org/abs/2202.09778)
+- *Luping Liu, Yi Ren, Zhijie Lin, Zhou Zhao*
+- `2022-02-30`
 
 ##### [DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps]
 - DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps [[arXiv]](https://arxiv.org/abs/2206.00927)
