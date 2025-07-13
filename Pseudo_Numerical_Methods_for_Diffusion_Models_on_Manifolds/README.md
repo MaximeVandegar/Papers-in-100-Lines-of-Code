@@ -1,4 +1,4 @@
-# DPM-Solver
+# Pseudo Numerical Methods for Diffusion Models
 
 
 Implementation in 100 lines of code of the paper [Pseudo Numerical Methods for Diffusion Models on Manifolds](https://arxiv.org/abs/2202.09778).
