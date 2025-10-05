@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/52)
+![my badge](https://badgen.net/badge/Papers%20implemented/53)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -132,6 +132,11 @@ Implementation of papers in 100 lines of code.
 - Self-Normalizing Neural Networks [[arXiv]](https://arxiv.org/abs/1706.02515)
 - *Günter Klambauer, Thomas Unterthiner, Andreas Mayr, Sepp Hochreiter*
 - `2017-06-08`
+
+##### [Masked Autoregressive Flow for Density Estimation]
+- Masked Autoregressive Flow for Density Estimation [[arXiv]](https://arxiv.org/abs/1705.07057)
+- *George Papamakarios, Theo Pavlakou, Iain Murray*
+- `2017-06-14`
 
 ##### [Proximal Policy Optimization Algorithms]
 - Proximal Policy Optimization Algorithms [[arXiv]](https://arxiv.org/abs/1707.06347)

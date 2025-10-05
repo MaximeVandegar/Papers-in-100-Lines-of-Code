@@ -1,0 +1,5 @@
+keras==3.10.0
+matplotlib==3.5.1
+numpy==1.26.4
+torch==2.7.0
+tqdm==4.67.1
