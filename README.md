@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/53)
+![my badge](https://badgen.net/badge/Papers%20implemented/54)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -107,6 +107,11 @@ Implementation of papers in 100 lines of code.
 - Wasserstein GAN [[arXiv]](https://arxiv.org/abs/1701.07875)
 - *Martin Arjovsky, Soumith Chintala, Léon Bottou*
 - `2017-01-26`
+
+##### [Density estimation using Real NVP]
+- Density estimation using Real NVP [[arXiv]](https://arxiv.org/abs/1605.08803)
+- *Laurent Dinh, Jascha Sohl-Dickstein, Samy Bengio*
+- `2017-02-27`
 
 ##### [Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks]
 - Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks [[arXiv]](https://arxiv.org/abs/1703.03400)
