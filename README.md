@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/55)
+![my badge](https://badgen.net/badge/Papers%20implemented/56)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -282,3 +282,8 @@ Implementation of papers in 100 lines of code.
 - 3D Gaussian Splatting for Real-Time Radiance Field Rendering [[arXiv]](https://arxiv.org/abs/2308.04079)
 - *Bernhard Kerbl, Georgios Kopanas, Thomas Leimkühler, George Drettakis*
 - `2023-08-08`
+
+##### [Speedy-Splat]
+- Speedy-Splat: Fast 3D Gaussian Splatting with Sparse Pixels and Sparse Primitives [[arXiv]](https://arxiv.org/abs/2412.00578)
+- *Alex Hanson, Allen Tu, Geng Lin, Vasu Singla, Matthias Zwicker, Tom Goldstein*
+- `2024-11-30`
