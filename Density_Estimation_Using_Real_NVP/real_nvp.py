@@ -4,8 +4,9 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.nn.utils as utils
 import torch.optim as optim
-from torch.utils.data import DataLoader, TensorDataset
-from keras.datasets.mnist import load_data
+from torch.utils.data import DataLoader
+from torchvision.datasets import MNIST
+from torchvision.transforms import ToTensor
 from tqdm import tqdm
 import matplotlib.pyplot as plt
 
@@ -66,21 +67,21 @@ class BatchNorm2dNoAffine(nn.Module):
         if reverse:
             y = x * torch.sqrt(var + self.eps) + mean
             if return_logdet:
-                ld = (H * W) * 0.5 * torch.sum(torch.log(var + self.eps)).expand(B)
+                ld = (H * W) * 0.5 * torch.sum(torch.log(var + self.eps))
                 return y, ld
             return y
         else:
             y = (x - mean) / torch.sqrt(var + self.eps)
             if return_logdet:
-                ld = -(H * W) * 0.5 * torch.sum(torch.log(var + self.eps)).expand(B)
+                ld = -(H * W) * 0.5 * torch.sum(torch.log(var + self.eps))
                 return y, ld
             return y
 
 class ResBlock(nn.Module):
     def __init__(self, channels, hidden):
         super().__init__()
-        self.conv1 = utils.weight_norm(nn.Conv2d(channels, hidden, kernel_size=3, padding=1))
-        self.conv2 = utils.weight_norm(nn.Conv2d(hidden, channels, kernel_size=1))
+        self.conv1 = utils.parametrizations.weight_norm(nn.Conv2d(channels, hidden, kernel_size=3, padding=1))
+        self.conv2 = utils.parametrizations.weight_norm(nn.Conv2d(hidden, channels, kernel_size=1))
         self.bn1 = BatchNorm2dNoAffine(hidden)
 
     def forward(self, x):
@@ -211,10 +212,8 @@ def gaussian_log_p(z):
     return -0.5 * (z ** 2).sum(dim=(1, 2, 3)) - 0.5 * D * torch.log(torch.tensor(2 * np.pi, device=z.device))
 
 if __name__ == "__main__":
-    (trainX, _), (testX, _) = load_data()
-    trainX = torch.from_numpy(np.float32(trainX) / 255.0)
-    train_loader = DataLoader(TensorDataset(trainX[:, None]),
-                              batch_size=128, shuffle=True, drop_last=True)
+    dataset = MNIST("./", train=True, transform=ToTensor(), download=True)
+    train_loader = DataLoader(dataset, batch_size=128, shuffle=True, drop_last=True)
 
     n_epochs = 200
     device = "cuda"
@@ -226,8 +225,8 @@ if __name__ == "__main__":
     for epoch in tqdm(range(n_epochs)):
         total_loss = 0.0
 
-        for (x_batch,) in tqdm(train_loader):
-            x_batch = x_batch.to(device)
+        for x_batch in tqdm(train_loader):
+            x_batch = x_batch[0].to(device)
 
             u = torch.rand_like(x_batch)  # Uniform dequantization
             x_deq = (x_batch * 255.0 + u) / 256.0
