@@ -128,4 +128,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# MNIST dataset by torchvision
+**/MNIST/raw/**
+
 .DS_Store
