@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/56)
+![my badge](https://badgen.net/badge/Papers%20implemented/57)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -262,6 +262,11 @@ Implementation of papers in 100 lines of code.
 - DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps [[arXiv]](https://arxiv.org/abs/2206.00927)
 - *Cheng Lu, Yuhao Zhou, Fan Bao, Jianfei Chen, Chongxuan Li, Jun Zhu*
 - `2022-06-02`
+
+##### [DreamBooth]
+- DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation [[arXiv]](https://arxiv.org/abs/2208.12242)
+- *Nataniel Ruiz, Yuanzhen Li, Varun Jampani, Yael Pritch, Michael Rubinstein, Kfir Aberman*
+- `2022-08-25`
 
 ##### [Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow]
 - Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow [[arXiv]](https://arxiv.org/abs/2209.03003)
