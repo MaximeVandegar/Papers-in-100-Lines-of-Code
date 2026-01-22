@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/57)
+![my badge](https://badgen.net/badge/Papers%20implemented/58)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -242,6 +242,11 @@ Implementation of papers in 100 lines of code.
 - Plenoxels: Radiance Fields without Neural Networks [[arXiv]](https://arxiv.org/abs/2112.05131)
 - *Alex Yu, Sara Fridovich-Keil, Matthew Tancik, Qinhong Chen, Benjamin Recht, Angjoo Kanazawa*
 - `2021-12-09`
+
+##### [Stable Diffusion v1-5]
+- High-Resolution Image Synthesis with Latent Diffusion Models [[arXiv]](https://arxiv.org/abs/2112.10752)
+- *Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, Björn Ommer*
+- `2021-12-20`
 
 ##### [InfoNeRF: Ray Entropy Minimization for Few-Shot Neural Volume Rendering]
 - InfoNeRF: Ray Entropy Minimization for Few-Shot Neural Volume Rendering [[arXiv]](https://arxiv.org/abs/2112.15399)
