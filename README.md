@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/58)
+![my badge](https://badgen.net/badge/Papers%20implemented/59)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -297,3 +297,8 @@ Implementation of papers in 100 lines of code.
 - Speedy-Splat: Fast 3D Gaussian Splatting with Sparse Pixels and Sparse Primitives [[arXiv]](https://arxiv.org/abs/2412.00578)
 - *Alex Hanson, Allen Tu, Geng Lin, Vasu Singla, Matthias Zwicker, Tom Goldstein*
 - `2024-11-30`
+
+##### [Spherical Voronoi: Directional Appearance as a Differentiable Partition of the Sphere]
+- Spherical Voronoi: Directional Appearance as a Differentiable Partition of the Sphere [[arXiv]](https://arxiv.org/abs/2512.14180)
+- *Francesco Di Sario, Daniel Rebain, Dor Verbin, Marco Grangetto, Andrea Tagliasacchi*
+- `2025-12-16`
