@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/60)
+![my badge](https://badgen.net/badge/Papers%20implemented/61)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -297,6 +297,11 @@ Implementation of papers in 100 lines of code.
 - Splatter Image: Ultra-Fast Single-View 3D Reconstruction [[arXiv]](https://arxiv.org/abs/2312.13150)
 - *Stanislaw Szymanowicz, Christian Rupprecht, Andrea Vedaldi*
 - `2023-12-20`
+
+##### [A Pixel Is Worth More Than One 3D Gaussians in Single-View 3D Reconstruction]
+- A Pixel Is Worth More Than One 3D Gaussians in Single-View 3D Reconstruction [[arXiv]](https://arxiv.org/abs/2405.20310)
+- *Jianghao Shen, Nan Xue, Tianfu Wu*
+- `2024-05-30`
 
 ##### [Speedy-Splat]
 - Speedy-Splat: Fast 3D Gaussian Splatting with Sparse Pixels and Sparse Primitives [[arXiv]](https://arxiv.org/abs/2412.00578)
