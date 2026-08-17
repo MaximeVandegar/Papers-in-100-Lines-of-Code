@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/61)
+![my badge](https://badgen.net/badge/Papers%20implemented/62)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -232,6 +232,11 @@ Implementation of papers in 100 lines of code.
 - NeRF--: Neural Radiance Fields Without Known Camera Parameters [[arXiv]](https://arxiv.org/abs/2102.07064)
 - *Zirui Wang, Shangzhe Wu, Weidi Xie, Min Chen, Victor Adrian Prisacariu*
 - `2021-02-14`
+
+##### [Light Field Networks: Neural Scene Representations with Single-Evaluation Rendering]
+- Light Field Networks: Neural Scene Representations with Single-Evaluation Rendering [[arXiv]](https://arxiv.org/abs/2106.02634)
+- *Vincent Sitzmann, Semon Rezchikov, William T. Freeman, Joshua B. Tenenbaum, Fredo Durand*
+- `2021-06-04`
 
 ##### [Gromov-Wasserstein Distances between Gaussian Distributions]
 - Gromov-Wasserstein Distances between Gaussian Distributions [[arXiv]](https://arxiv.org/abs/2104.07970)
