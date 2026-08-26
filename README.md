@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/62)
+![my badge](https://badgen.net/badge/Papers%20implemented/63)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -211,6 +211,11 @@ Implementation of papers in 100 lines of code.
 ##### [Learned Initializations for Optimizing Coordinate-Based Neural Representations]
 - Learned Initializations for Optimizing Coordinate-Based Neural Representations [[arXiv]](https://arxiv.org/abs/2012.02189)
 - *Matthew Tancik, Ben Mildenhall, Terrance Wang, Divi Schmidt, Pratul P. Srinivasan, Jonathan T. Barron, Ren Ng*
+- `2020-12-03`
+
+##### [pixelNeRF: Neural Radiance Fields from One or Few Images]
+- pixelNeRF: Neural Radiance Fields from One or Few Images [[arXiv]](https://arxiv.org/abs/2012.02190)
+- *Alex Yu, Vickie Ye, Matthew Tancik, Angjoo Kanazawa*
 - `2020-12-03`
 
 ##### [FastNeRF: High-Fidelity Neural Rendering at 200FPS]
