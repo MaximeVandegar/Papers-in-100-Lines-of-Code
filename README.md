@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/63)
+![my badge](https://badgen.net/badge/Papers%20implemented/64)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -172,6 +172,11 @@ Implementation of papers in 100 lines of code.
 - Optimizing Millions of Hyperparameters by Implicit Differentiation [[PMLR]](https://proceedings.mlr.press/v108/lorraine20a)
 - *Jonathan Lorraine, Paul Vicol, David Duvenaud*
 - `2019-10-06`
+
+##### [Differentiable Volumetric Rendering: Learning Implicit 3D Representations without 3D Supervision]
+- Differentiable Volumetric Rendering: Learning Implicit 3D Representations without 3D Supervision [[arXiv]](https://arxiv.org/abs/1912.07372)
+- *Michael Niemeyer, Lars Mescheder, Michael Oechsle, Andreas Geiger*
+- `2019-12-16`
 
 ##### [Implicit Neural Representations with Periodic Activation Functions]
 - Implicit Neural Representations with Periodic Activation Functions [[arXiv]](https://arxiv.org/abs/2006.09661)
