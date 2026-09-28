@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/65)
+![my badge](https://badgen.net/badge/Papers%20implemented/66)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -176,6 +176,11 @@ Implementation of papers in 100 lines of code.
 ##### [Optimizing Millions of Hyperparameters by Implicit Differentiation]
 - Optimizing Millions of Hyperparameters by Implicit Differentiation [[PMLR]](https://proceedings.mlr.press/v108/lorraine20a)
 - *Jonathan Lorraine, Paul Vicol, David Duvenaud*
+- `2019-10-06`
+
+##### [Root Mean Square Layer Normalization]
+- Root Mean Square Layer Normalization [[arXiv]](https://arxiv.org/abs/1910.07467)
+- *Biao Zhang, Rico Sennrich*
 - `2019-10-06`
 
 ##### [Differentiable Volumetric Rendering: Learning Implicit 3D Representations without 3D Supervision]
