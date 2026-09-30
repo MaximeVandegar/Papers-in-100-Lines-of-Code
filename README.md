@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/66)
+![my badge](https://badgen.net/badge/Papers%20implemented/67)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -77,6 +77,11 @@ Implementation of papers in 100 lines of code.
 - Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs) [[arXiv]](https://arxiv.org/abs/1511.07289)
 - *Djork-Arné Clevert, Thomas Unterthiner, Sepp Hochreiter*
 - `2015-11-23`
+
+##### [Deep Residual Learning for Image Recognition]
+- Deep Residual Learning for Image Recognition [[arXiv]](https://arxiv.org/abs/1512.03385)
+- *Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun*
+- `2015-12-10`
 
 ##### [Adversarially Learned Inference]
 - Adversarially Learned Inference [[arXiv]](https://arxiv.org/abs/1606.00704)
