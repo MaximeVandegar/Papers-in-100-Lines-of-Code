@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/67)
+![my badge](https://badgen.net/badge/Papers%20implemented/68)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -307,6 +307,11 @@ Implementation of papers in 100 lines of code.
 - Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow [[arXiv]](https://arxiv.org/abs/2209.03003)
 - *Xingchao Liu, Chengyue Gong, Qiang Liu*
 - `2022-09-07`
+
+##### [Protein structure generation via folding diffusion]
+- Protein structure generation via folding diffusion [[arXiv]](https://arxiv.org/abs/2209.15611)
+- *Kevin E. Wu, Kevin K. Yang, Rianne van den Berg, James Y. Zou, Alex X. Lu, Ava P. Amini*
+- `2022-09-30`
 
 ##### [K-Planes: Explicit Radiance Fields in Space, Time, and Appearance]
 - K-Planes: Explicit Radiance Fields in Space, Time, and Appearance [[arXiv]](https://arxiv.org/abs/2301.10241)
