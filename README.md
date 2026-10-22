@@ -1,4 +1,4 @@
-![my badge](https://badgen.net/badge/Papers%20implemented/68)
+![my badge](https://badgen.net/badge/Papers%20implemented/69)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -47,6 +47,11 @@ Implementation of papers in 100 lines of code.
 - NICE: Non-linear Independent Components Estimation [[arXiv]](https://arxiv.org/abs/1410.8516)
 - *Laurent Dinh, David Krueger, Yoshua Bengio*
 - `2014-10-30`
+
+##### [Batch Normalization]
+- Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift [[arXiv]](https://arxiv.org/abs/1502.03167)
+- *Sergey Ioffe, Christian Szegedy*
+- `2015-02-11`
 
 ##### [Human-level control through deep reinforcement learning]
 - Human-level control through deep reinforcement learning [[nature]](https://www.nature.com/articles/nature14236)
